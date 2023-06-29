@@ -1,0 +1,119 @@
+@import 'typography';
+
+:root {
+  --width: 100%;
+  --height: 100vh;
+  --b-radius: 5%;  
+  --primary-color: #5DE31B;
+  --secondary-color: #03134A;
+  --text-color-w: #fff;
+  --bg-color: #f2f2f2;
+  --pd-container: 0 1rem;
+  --mg-text: .5em 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--bg-color);
+  font-size: 16px;
+  padding: .5px;
+}
+
+section {
+  width: var(--width);
+  min-height: var(--height);
+}
+
+hr {
+  align-self: stretch;
+  color: var(--text-color-w);
+}
+
+.start {
+  position: relative;
+
+  background-image: linear-gradient(90deg,  rgba(94, 227, 27, 0.5), rgba(0,0,0, .5)),
+    url(../assets/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-size: 1rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: var(--pd-container);
+
+  .start__title {
+    color: var(--text-color-w);
+    margin: var(--mg-text);
+    padding: 0 1em;
+  }
+  
+  .start__text {
+    color: var(--text-color-w);
+    margin: var(--mg-text);
+  }
+
+  .start__wave {
+    position: absolute;
+    width: var(--width);
+    bottom: -1em;
+    right: 0;
+  }
+}
+
+.about {
+  background-color: var(--secondary-color);
+  text-align: center;
+
+  padding: var(--pd-container);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+
+  .about__title {
+    color: var(--text-color-w);
+    margin: var(--mg-text);
+  }
+
+  .about__photo {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border: 8px solid var(--primary-color);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 2em 0;
+  }
+  
+  .img {
+    width: var(--width);
+  }
+
+  .about__description {
+    color: var(--text-color-w);
+  }
+
+  .about_wave {
+    position: absolute;
+    width: var(--width);
+    right: 0;
+    bottom: 0;
+  }
+}
+
