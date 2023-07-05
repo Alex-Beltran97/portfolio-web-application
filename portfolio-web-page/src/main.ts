@@ -3,12 +3,12 @@ import { ICategory, ITool } from './types';
 
 const toolsContainer = document.querySelector(".tools_container")!;
 const fragment = document.createDocumentFragment();
-const toolsTemplate = document.querySelector("#tool-template")!.content;
+const toolsTemplate = document.querySelector("#tool-template")! as HTMLTemplateElement;
 
 const { Tools } : { Tools: ICategory[] } = tools;
 
 Tools.forEach( (tool: ICategory) =>{
-  const clone = toolsTemplate.cloneNode(true) as HTMLDivElement;
+  const clone = toolsTemplate.content.cloneNode(true) as HTMLDivElement;
   
   clone.querySelector(".template__title")!.innerHTML = tool.category;
   
