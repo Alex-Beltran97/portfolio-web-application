@@ -35,6 +35,10 @@ hr {
   color: var(--text-color-w);
 }
 
+figcaption {
+  font-size: 0.5em;
+}
+
 .start {
   position: relative;
   background-image: linear-gradient(90deg, rgba(94, 227, 27, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/bg.jpg);
@@ -97,8 +101,57 @@ hr {
 .about .about_wave {
   position: absolute;
   width: var(--width);
+  bottom: -1em;
   right: 0;
-  bottom: 0;
+}
+
+.tools {
+  text-align: center;
+  position: relative;
+  margin-bottom: 8rem;
+}
+.tools .tools__title {
+  margin: var(--mg-text);
+  color: var(--secondary-color);
+  margin-top: 1em;
+}
+.tools .tools_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.tools .tools_container .template__title {
+  margin: 16px 0;
+  font-size: 0.75em;
+  font-weight: 700;
+}
+.tools .tools_container .skill__container {
+  display: flex;
+  gap: 0.75em;
+  align-items: center;
+  justify-content: space-between;
+}
+.tools .tools_container .skill__container .figure {
+  width: 3.3125em;
+}
+.tools .tools_container .skill__container .figure .img {
+  width: var(--width);
+}
+.tools .tools_wave {
+  width: var(--width);
+  position: absolute;
+  bottom: -8.5em;
+  right: 0;
+}
+
+.projects {
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+.projects .projects__title {
+  color: var(--text-color-w);
+  margin: var(--mg-text);
 }
 
 /*# sourceMappingURL=main.css.map */

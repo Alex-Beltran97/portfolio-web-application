@@ -1,0 +1,145 @@
+{
+  "Tools": [
+    {
+      "category": "Front End",
+      "skills": [
+        {
+          "name": "HTML5",
+          "logo": "src/assets/icons/html.svg"
+        },
+        {
+          "name": "CSS3",
+          "logo": "src/assets/icons/css.svg"
+        }
+      ]
+    },
+    {
+      "category": "Lenguajes",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "logo": "src/assets/icons/javascript.svg"
+        },
+        {
+          "name": "TypeScript",
+          "logo": "src/assets/icons/typescript.svg"
+        },
+        {
+          "name": "Google AppsScript",
+          "logo": "src/assets/icons/Google.svg"
+        },
+        {
+          "name": "Dart",
+          "logo": "src/assets/icons/dart.svg"
+        }
+      ]
+    },
+    {
+      "category": "Librerias Front End",
+      "skills": [
+        {
+          "name": "React.js",
+          "logo": "src/assets/icons/react.svg"
+        },
+        {
+          "name": "Redux",
+          "logo": "src/assets/icons/redux.svg"
+        },
+        {
+          "name": "Material UI",
+          "logo": "src/assets/icons/material-ui.svg"
+        },
+        {
+          "name": "Lit Element",
+          "logo": "src/assets/icons/lit-element.svg"
+        }
+      ]
+    },
+    {
+      "category": "Module Bundlers",
+      "skills": [
+        {
+          "name": "Parcel.js",
+          "logo": "src/assets/icons/parcel.svg"
+        },
+        {
+          "name": "Vite",
+          "logo": "src/assets/icons/vite.svg"
+        },
+        {
+          "name": "Webpack",
+          "logo": "src/assets/icons/webpack.svg"
+        }
+      ]
+    },
+    {
+      "category": "Back End",
+      "skills": [
+        {
+          "name": "Node.js",
+          "logo": "src/assets/icons/node-js.svg"
+        },
+        {
+          "name": "Expres.js",
+          "logo": "src/assets/icons/express.svg"
+        },
+        {
+          "name": "Firebase",
+          "logo": "src/assets/icons/firebase.svg"
+        }
+      ]
+    },
+    {
+      "category": "Bases de datos",
+      "skills": [
+        {
+          "name": "PostgreSQL",
+          "logo": "src/assets/icons/postgresql.svg"
+        },
+        {
+          "name": "MongoDB",
+          "logo": "src/assets/icons/mongodb.svg"
+        }
+      ]
+    },
+    {
+      "category": "Control de versiones",
+      "skills": [
+        {
+          "name": "Git",
+          "logo": "src/assets/icons/git.svg"
+        },
+        {
+          "name": "GitHub",
+          "logo": "src/assets/icons/github.svg"
+        }
+      ]
+    },
+    {
+      "category": "Sistemas operativos",
+      "skills": [
+        {
+          "name": "Linux",
+          "logo": "src/assets/icons/linux.svg"
+        },
+        {
+          "name": "Windows",
+          "logo": "src/assets/icons/windows.svg"
+        }
+      ]
+    },
+    {
+      "category": "Despliegue",
+      "skills": [
+        {
+          "name": "Netlify",
+          "logo": "src/assets/icons/netlify.svg"
+        },
+        {
+          "name": "Railway",
+          "logo": "src/assets/icons/railway.svg"
+        }
+      ]
+    }
+  ]
+}

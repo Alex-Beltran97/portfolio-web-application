@@ -12,6 +12,8 @@
   --mg-text: .5em 0;
 }
 
+$font-size-doc: 16;
+
 * {
   margin: 0;
   padding: 0;
@@ -22,8 +24,12 @@
 body {
   font-family: 'Lato', sans-serif;
   background-color: var(--bg-color);
-  font-size: 16px;
+  font-size: $font-size-doc * 1px;
   padding: .5px;
+}
+
+@function fromPxToEm($px, $fsBase) {
+  @return ($px / $fsBase) * 1em;
 }
 
 section {
@@ -34,6 +40,10 @@ section {
 hr {
   align-self: stretch;
   color: var(--text-color-w);
+}
+
+figcaption {
+  font-size: fromPxToEm(8, $font-size-doc);
 }
 
 .start {
@@ -113,8 +123,73 @@ hr {
   .about_wave {
     position: absolute;
     width: var(--width);
+    bottom: -1em;
     right: 0;
-    bottom: 0;
   }
 }
 
+.tools {
+
+  text-align: center;
+
+  position: relative;
+
+  margin-bottom: 8rem;
+
+  .tools__title {
+    margin: var(--mg-text);
+    color: var(--secondary-color);    
+    margin-top: 1em;
+  }
+
+  .tools_container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .template__title {
+      margin: $font-size-doc * 1px 0;
+      font-size: fromPxToEm(12, $font-size-doc);
+      font-weight: 700;
+    }
+
+    .skill__container {
+
+      display: flex;
+      gap: fromPxToEm(12, $font-size-doc);
+      align-items: center;
+      justify-content: space-between;
+
+      .figure {
+
+        width: fromPxToEm(53, $font-size-doc);
+
+        .img {
+          width: var(--width);
+        }
+
+      }
+
+    }
+
+  }
+
+  .tools_wave {
+    width: var(--width);
+    position: absolute;
+    bottom: -8.5em;
+    right: 0;
+  }
+}
+
+.projects {
+  background-color: var(--secondary-color);
+  text-align: center;
+
+  .projects__title {
+    color: var(--text-color-w);
+    margin: var(--mg-text);
+  }
+}
