@@ -5,11 +5,11 @@
       "skills": [
         {
           "name": "HTML5",
-          "logo": "src/assets/icons/html.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532893/html_sscy1t.svg"
         },
         {
           "name": "CSS3",
-          "logo": "src/assets/icons/css.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532894/css_ego7js.svg"
         }
       ]
     },
@@ -18,19 +18,19 @@
       "skills": [
         {
           "name": "JavaScript",
-          "logo": "src/assets/icons/javascript.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532894/javascript_odp5hs.svg"
         },
         {
           "name": "TypeScript",
-          "logo": "src/assets/icons/typescript.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532898/typescript_rtz1yu.svg"
         },
         {
           "name": "Google AppsScript",
-          "logo": "src/assets/icons/Google.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532893/Google_zdcjen.svg"
         },
         {
           "name": "Dart",
-          "logo": "src/assets/icons/dart.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532894/dart_q0ywml.svg"
         }
       ]
     },
@@ -39,19 +39,19 @@
       "skills": [
         {
           "name": "React.js",
-          "logo": "src/assets/icons/react.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532897/react_q24lzq.svg"
         },
         {
           "name": "Redux",
-          "logo": "src/assets/icons/redux.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532897/redux_ouzyej.svg"
         },
         {
           "name": "Material UI",
-          "logo": "src/assets/icons/material-ui.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532895/material-ui_rsdss5.svg"
         },
         {
           "name": "Lit Element",
-          "logo": "src/assets/icons/lit-element.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532895/lit-element_cyf2k0.svg"
         }
       ]
     },
@@ -60,15 +60,15 @@
       "skills": [
         {
           "name": "Parcel.js",
-          "logo": "src/assets/icons/parcel.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532896/parcel_dmqgtq.svg"
         },
         {
           "name": "Vite",
-          "logo": "src/assets/icons/vite.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532898/vite_xest4o.svg"
         },
         {
           "name": "Webpack",
-          "logo": "src/assets/icons/webpack.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532898/webpack_w9ayeo.svg"
         }
       ]
     },
@@ -77,15 +77,15 @@
       "skills": [
         {
           "name": "Node.js",
-          "logo": "src/assets/icons/node-js.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532897/node-js_e4597a.svg"
         },
         {
           "name": "Expres.js",
-          "logo": "src/assets/icons/express.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532894/express_wixt5s.svg"
         },
         {
           "name": "Firebase",
-          "logo": "src/assets/icons/firebase.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532893/firebase_cyjidn.svg"
         }
       ]
     },
@@ -94,11 +94,11 @@
       "skills": [
         {
           "name": "PostgreSQL",
-          "logo": "src/assets/icons/postgresql.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532896/postgresql_aeoatj.svg"
         },
         {
           "name": "MongoDB",
-          "logo": "src/assets/icons/mongodb.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532895/mongodb_cbpjde.svg"
         }
       ]
     },
@@ -107,11 +107,11 @@
       "skills": [
         {
           "name": "Git",
-          "logo": "src/assets/icons/git.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532893/git_yiynix.svg"
         },
         {
           "name": "GitHub",
-          "logo": "src/assets/icons/github.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532893/github_rn9m0h.svg"
         }
       ]
     },
@@ -120,11 +120,11 @@
       "skills": [
         {
           "name": "Linux",
-          "logo": "src/assets/icons/linux.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532895/linux_w9yrbm.svg"
         },
         {
           "name": "Windows",
-          "logo": "src/assets/icons/windows.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532893/windows_tej5jm.svg"
         }
       ]
     },
@@ -133,11 +133,11 @@
       "skills": [
         {
           "name": "Netlify",
-          "logo": "src/assets/icons/netlify.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532895/netlify_kynfun.svg"
         },
         {
           "name": "Railway",
-          "logo": "src/assets/icons/railway.svg"
+          "logo": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1688532897/railway_dxmemm.svg"
         }
       ]
     }

@@ -134,9 +134,13 @@ figcaption {
 }
 .tools .tools_container .skill__container .figure {
   width: 3.3125em;
+  transition: 0.3s;
 }
 .tools .tools_container .skill__container .figure .img {
   width: var(--width);
+}
+.tools .tools_container .skill__container .figure:hover {
+  width: 4.5em;
 }
 .tools .tools_wave {
   width: var(--width);

@@ -165,14 +165,19 @@ figcaption {
       .figure {
 
         width: fromPxToEm(53, $font-size-doc);
+        transition: .3s;
 
         .img {
           width: var(--width);
         }
 
+        &:hover {
+          width: fromPxToEm(72, $font-size-doc)
+        }
       }
 
     }
+
 
   }
 
