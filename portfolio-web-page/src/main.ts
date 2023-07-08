@@ -5,6 +5,14 @@ const toolsContainer = document.querySelector(".tools_container")!;
 const fragment = document.createDocumentFragment();
 const toolsTemplate = document.querySelector("#tool-template")! as HTMLTemplateElement;
 
+const wspContact = document.getElementById('wsp_contact');
+
+const phoneNumber = import.meta.env.VITE_YOUR_PHONE_NUMBER;
+
+wspContact?.setAttribute('href', `https://wa.me/${phoneNumber}`);
+
+console.log(import.meta.env.VITE_YOUR_PHONE_NUMBER);
+
 const { Tools } : { Tools: ICategory[] } = tools;
 
 Tools.forEach( (tool: ICategory) =>{
